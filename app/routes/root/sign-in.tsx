@@ -3,10 +3,12 @@ import {ButtonComponent} from "@syncfusion/ej2-react-buttons";
 import {loginWithGoogle} from "~/appwrite/auth";
 import {account} from "~/appwrite/client";
 
+
+
 export async function clientLoader() {
     try{
         const user = await account.get();
-
+        // if the user has signed in already, redirect to public facing website.
         if (user.$id) return redirect("/");
     } catch(e){
         console.log("Error fetching User", e)
