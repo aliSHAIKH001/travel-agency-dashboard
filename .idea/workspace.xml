@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae42f21-7f02-4238-b757-a9605b0f23e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/instrument.server.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/admin/create-trip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/admin/trips.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/appwrite/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/appwrite/auth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/root.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/admin/admin-layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin/admin-layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/admin/all-users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin/all-users.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/admin/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin/dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/root/sign-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/root/sign-in.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-router.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react-router.config.ts" afterDir="false" />
@@ -86,7 +84,8 @@
       <workItem from="1745752960853" duration="186000" />
       <workItem from="1745753160980" duration="15196000" />
       <workItem from="1746768836076" duration="6414000" />
-      <workItem from="1746831998577" duration="7035000" />
+      <workItem from="1746831998577" duration="13139000" />
+      <workItem from="1746862279023" duration="16547000" />
     </task>
     <servers />
   </component>
