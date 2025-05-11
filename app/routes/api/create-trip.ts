@@ -84,6 +84,8 @@ export const action = async ({request}: ActionFunctionArgs) => {
             appwriteConfig.tripCollectionId,
             ID.unique(),
             {
+                // Stringify is only useful when we have to store nested or dynamic objects in a single field
+                // Needs manual JSON.parse().
                 tripDetail: JSON.stringify(trip),
                 createdAt: new Date().toISOString(),
                 imageUrls,

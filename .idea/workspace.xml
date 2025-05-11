@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae42f21-7f02-4238-b757-a9605b0f23e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/routes/api/create-trip.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/appwrite/trips.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/admin/trip-detail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/InfoPill.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/new-calender.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/admin/create-trip.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin/create-trip.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/api/create-trip.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/api/create-trip.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +84,8 @@
       <workItem from="1745753160980" duration="15196000" />
       <workItem from="1746768836076" duration="6414000" />
       <workItem from="1746831998577" duration="13139000" />
-      <workItem from="1746862279023" duration="21561000" />
+      <workItem from="1746862279023" duration="25413000" />
+      <workItem from="1746956846743" duration="15547000" />
     </task>
     <servers />
   </component>
