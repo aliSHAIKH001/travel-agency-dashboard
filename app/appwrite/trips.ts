@@ -7,7 +7,6 @@ export const getAllTrips = async (limit: number, offset: number) => {
         appwriteConfig.tripCollectionId,
         [Query.limit(limit), Query.offset(offset), Query.orderDesc("createdAt")]
     )
-    console.log("Fuck this", allTrips)
 
     if (allTrips.total === 0) {
         console.error("No trips found")
