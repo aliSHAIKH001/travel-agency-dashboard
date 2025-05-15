@@ -10,7 +10,9 @@ export default [
         route('trips/create', 'routes/admin/create-trip.tsx'),
         route('trips/:tripId', 'routes/admin/trip-detail.tsx')
     ]),
+    // With new layouts, a loader function is necessary to check for existing user or storing the new users' data.
     layout("routes/root/page-layout.tsx", [
-        index("routes/root/travel-page.tsx")
+        index("routes/root/travel-page.tsx"),
+        route("travel/:tripId", "routes/root/travel-detail.tsx")
     ])
 ] satisfies RouteConfig;

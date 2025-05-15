@@ -42,11 +42,7 @@ export const clientLoader = async () => {
             imageUrls: imageUrls ?? [],
         }))
 
-    // const mappedUsers: UsersItineraryCount[] = allUsers.users.map((user) => ({
-    //     imageUrl: user.imageUrl,
-    //     name: user.name,
-    //     count: getUserTrips(user.$id) ?? Math.floor(Math.random() * 10),
-    // }))
+    // With app-write , the auth ID (user.$id) and document ID are two different things.
     const mappedUsers: UsersItineraryCount[] = await Promise.all(
         allUsers.users.map(async (u) => {
             const count = await getUserTrips(`${u.accountId}`);
