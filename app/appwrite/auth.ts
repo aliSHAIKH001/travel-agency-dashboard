@@ -119,3 +119,14 @@ export const getAllUsers = async (limit: number, offset: number) => {
         return {users: [], total: 0}
     }
 }
+
+
+export const getUserTrips = async (userId: string) => {
+    const res =  await database.listDocuments(
+        appwriteConfig.databaseId,
+        appwriteConfig.tripCollectionId, [
+        Query.equal('userId', userId)
+    ]);
+    console.log(res)
+    return res.total;
+};
